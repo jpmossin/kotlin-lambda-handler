@@ -1,0 +1,136 @@
+{
+  "resource": "/debug",
+  "path": "/debug",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept-Language": "en-GB,en;q=0.9,en-US;q=0.8,nb;q=0.7,sv;q=0.6,pl;q=0.5",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "NO",
+    "Host": "ai7culynak.execute-api.eu-north-1.amazonaws.com",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",
+    "Via": "2.0 a7d2a4ec2f50830f128dc406960aef9b.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "6MP7HOaJdLfRTNNOdBUOeD6k4uHHOUOoqnAz9aQCHxyAe-EJAfi-6Q==",
+    "X-Amzn-Trace-Id": "Root=1-5d97a7a3-3ffef7a08919bcaa6e922698",
+    "X-Forwarded-For": "92.221.202.64, 70.132.12.133",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+    "Accept": [
+      "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Accept-Language": [
+      "en-GB,en;q=0.9,en-US;q=0.8,nb;q=0.7,sv;q=0.6,pl;q=0.5"
+    ],
+    "CloudFront-Forwarded-Proto": [
+      "https"
+    ],
+    "CloudFront-Is-Desktop-Viewer": [
+      "true"
+    ],
+    "CloudFront-Is-Mobile-Viewer": [
+      "false"
+    ],
+    "CloudFront-Is-SmartTV-Viewer": [
+      "false"
+    ],
+    "CloudFront-Is-Tablet-Viewer": [
+      "false"
+    ],
+    "CloudFront-Viewer-Country": [
+      "NO"
+    ],
+    "Host": [
+      "ai7culynak.execute-api.eu-north-1.amazonaws.com"
+    ],
+    "sec-fetch-mode": [
+      "navigate"
+    ],
+    "sec-fetch-site": [
+      "none"
+    ],
+    "sec-fetch-user": [
+      "?1"
+    ],
+    "upgrade-insecure-requests": [
+      "1"
+    ],
+    "User-Agent": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+    ],
+    "Via": [
+      "2.0 a7d2a4ec2f50830f128dc406960aef9b.cloudfront.net (CloudFront)"
+    ],
+    "X-Amz-Cf-Id": [
+      "6MP7HOaJdLfRTNNOdBUOeD6k4uHHOUOoqnAz9aQCHxyAe-EJAfi-6Q=="
+    ],
+    "X-Amzn-Trace-Id": [
+      "Root=1-5d97a7a3-3ffef7a08919bcaa6e922698"
+    ],
+    "X-Forwarded-For": [
+      "92.221.202.64, 70.132.12.133"
+    ],
+    "X-Forwarded-Port": [
+      "443"
+    ],
+    "X-Forwarded-Proto": [
+      "https"
+    ]
+  },
+  "queryStringParameters": {
+    "x": "y"
+  },
+  "multiValueQueryStringParameters": {
+    "x": [
+      "y"
+    ]
+  },
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "hi2ziy",
+    "resourcePath": "/debug",
+    "httpMethod": "GET",
+    "extendedRequestId": "BDchhGh5Ai0F8tw=",
+    "requestTime": "04/Oct/2019:20:12:19 +0000",
+    "path": "/dev/debug",
+    "accountId": "756562050456",
+    "protocol": "HTTP/1.1",
+    "stage": "dev",
+    "domainPrefix": "ai7culynak",
+    "requestTimeEpoch": 1570219939248,
+    "requestId": "4955229c-2c8c-405c-9be0-e1e9cfeb2ac7",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "92.221.202.64",
+      "principalOrgId": null,
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",
+      "user": null
+    },
+    "domainName": "ai7culynak.execute-api.eu-north-1.amazonaws.com",
+    "apiId": "ai7culynak"
+  },
+  "body": "{\"foo\":\"bar\"}",
+  "isBase64Encoded": false
+}
+
